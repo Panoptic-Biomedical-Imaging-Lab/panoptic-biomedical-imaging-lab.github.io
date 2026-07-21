@@ -1,54 +1,64 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-summary: ''
-date: 2022-10-24
+summary: 'Panoptic Biomedical Imaging Lab at the University of Ulsan'
+date: 2026-07-22
 type: landing
 
 sections:
-  - block: resume-biography-3
+  - block: markdown
+    id: home
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
+      title: "Panoptic Biomedical Imaging Lab"
+      subtitle: "University of Ulsan"
+      text: |-
+        **Artificial Intelligence and Computational Imaging for Biomedical Applications**
+
+        We develop artificial intelligence and computational imaging methods
+        to understand biomedical structures and physiological characteristics
+        from facial, retinal, OCT, and medical images.
+
+        Our research combines biomedical image analysis, deep learning,
+        multimodal artificial intelligence, and clinically meaningful
+        quantitative imaging.
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      columns: '1'
       background:
         gradient_mesh:
           enable: true
 
-      # Name heading sizing to accommodate long or short names
-      name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
-      avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
   - block: markdown
+    id: research
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: "Research Areas"
+      subtitle: "Our primary research directions"
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        ### Facial Skin Imaging
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        AI-based detection, segmentation, and quantitative analysis of facial
+        skin characteristics, including wrinkles, pores, pigmentation, and redness.
 
-        Please reach out to collaborate 😃
+        ### Retinal and OCT Imaging
+
+        Computational analysis of retinal vasculature, optic structures,
+        and retinal layers for quantitative biomedical assessment.
+
+        ### Medical Image Analysis
+
+        Deep-learning and computational-imaging techniques for medical image
+        reconstruction, enhancement, segmentation, and interpretation.
+
+        ### Multimodal AI
+
+        Integration of biomedical images, clinical information, and language
+        models to generate interpretable and clinically meaningful results.
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: "Featured Publications"
+      text: "Selected publications from our research group."
       filters:
         folders:
           - publications
@@ -56,72 +66,49 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
     content:
-      title: Recent Publications
-      text: ''
+      title: "Recent Publications"
       filters:
         folders:
           - publications
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+
   - block: collection
     id: news
     content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
+      title: "Latest News"
+      subtitle: ""
+      text: ""
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
+      count: 6
       filters:
-        author: ''
-        category: ''
-        tag: ''
+        author: ""
+        category: ""
+        tag: ""
         exclude_featured: false
-        exclude_future: false
+        exclude_future: true
         exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the HugoBlox Kit demo site
+      columns: 3
+
+  - block: markdown
+    id: join
     content:
-      title: 👉 Build your own academic website like this
+      title: "Join Us"
+      subtitle: "Graduate Students and Undergraduate Researchers"
       text: |-
-        This site is generated by HugoBlox Kit - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
+        We welcome motivated students interested in biomedical imaging,
+        computer vision, deep learning, and multimodal artificial intelligence.
 
-        <a class="github-button" href="https://github.com/HugoBlox/kit" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/kit on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        Prospective students are encouraged to contact the lab with a brief
+        introduction, research interests, and curriculum vitae.
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl'
-        css_style: ''
+      columns: '1'
 ---
