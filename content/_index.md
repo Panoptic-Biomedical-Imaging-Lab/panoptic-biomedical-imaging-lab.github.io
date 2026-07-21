@@ -61,7 +61,7 @@ sections:
       text: |-
         ### Principal Investigator
 
-        **Professor [교수님 영문 이름]**  
+        **Professor [Huisu Yoon]**  
         Department of Biomedical Engineering  
         University of Ulsan
 
