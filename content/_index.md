@@ -1,7 +1,6 @@
 ---
 title: ''
 summary: 'Panoptic Biomedical Imaging Lab at the University of Ulsan'
-date: 2026-07-22
 type: landing
 
 sections:
@@ -11,15 +10,14 @@ sections:
       title: "Panoptic Biomedical Imaging Lab"
       subtitle: "University of Ulsan"
       text: |-
-        **Artificial Intelligence and Computational Imaging for Biomedical Applications**
+        **Artificial Intelligence and Computational Imaging  
+        for Biomedical Applications**
 
         We develop artificial intelligence and computational imaging methods
-        to understand biomedical structures and physiological characteristics
-        from facial, retinal, OCT, and medical images.
+        for analyzing facial, retinal, OCT, and medical images.
 
-        Our research combines biomedical image analysis, deep learning,
-        multimodal artificial intelligence, and clinically meaningful
-        quantitative imaging.
+        Our goal is to develop quantitative and interpretable imaging
+        technologies for biomedical and clinical applications.
     design:
       columns: '1'
       background:
@@ -32,82 +30,55 @@ sections:
       title: "Research Areas"
       subtitle: "Our primary research directions"
       text: |-
-        ### Facial Skin Imaging
+        ### Facial and Skin Imaging
 
-        AI-based detection, segmentation, and quantitative analysis of facial
-        skin characteristics, including wrinkles, pores, pigmentation, and redness.
+        Deep-learning methods for the detection, segmentation, and quantitative
+        analysis of wrinkles, pores, pigmentation, redness, and other facial
+        skin characteristics.
 
         ### Retinal and OCT Imaging
 
-        Computational analysis of retinal vasculature, optic structures,
-        and retinal layers for quantitative biomedical assessment.
+        Quantitative analysis of retinal vasculature, optic structures,
+        and retinal layers using artificial intelligence.
 
         ### Medical Image Analysis
 
-        Deep-learning and computational-imaging techniques for medical image
-        reconstruction, enhancement, segmentation, and interpretation.
+        Computational methods for medical image reconstruction, enhancement,
+        segmentation, and interpretation.
 
-        ### Multimodal AI
+        ### Multimodal Artificial Intelligence
 
-        Integration of biomedical images, clinical information, and language
-        models to generate interpretable and clinically meaningful results.
+        Integration of biomedical images, clinical information,
+        and vision-language models for interpretable analysis.
     design:
       columns: '1'
 
-  - block: collection
-    id: papers
+  - block: markdown
+    id: people
     content:
-      title: "Featured Publications"
-      text: "Selected publications from our research group."
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+      title: "People"
+      subtitle: "Our Research Group"
+      text: |-
+        ### Principal Investigator
 
-  - block: collection
-    content:
-      title: "Recent Publications"
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+        **Professor [교수님 영문 이름]**  
+        Department of Biomedical Engineering  
+        University of Ulsan
 
-  - block: collection
-    id: news
-    content:
-      title: "Latest News"
-      subtitle: ""
-      text: ""
-      page_type: blog
-      count: 6
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: true
-        exclude_past: false
-      offset: 0
-      order: desc
+        Graduate students and undergraduate researchers will be introduced here.
     design:
-      view: card
-      columns: 3
+      columns: '1'
 
   - block: markdown
     id: join
     content:
       title: "Join Us"
-      subtitle: "Graduate Students and Undergraduate Researchers"
+      subtitle: "Graduate and Undergraduate Researchers"
       text: |-
         We welcome motivated students interested in biomedical imaging,
         computer vision, deep learning, and multimodal artificial intelligence.
 
-        Prospective students are encouraged to contact the lab with a brief
+        Prospective students may contact the laboratory with a brief
         introduction, research interests, and curriculum vitae.
     design:
       columns: '1'
