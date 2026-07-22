@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "AI and Computational Imaging for Biomedical Applications"
     # Site meta description for search engines and social sharing
-    description: "We develop artificial intelligence and computational imaging methods for facial, retinal, OCT, and medical image analysis."
+    description: "Our laboratory develops advanced image processing and artificial intelligence technologies for the visualization, processing, and analysis of both internal and external structures of the human body. By integrating computational imaging and deep learning, we aim to provide practical solutions for biomedical research, clinical assessment, and digital healthcare applications."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
