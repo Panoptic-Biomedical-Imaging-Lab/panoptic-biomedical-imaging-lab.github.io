@@ -10,14 +10,16 @@ sections:
       title: "Panoptic Biomedical Imaging Lab"
       subtitle: "University of Ulsan"
       text: |-
-        **Artificial Intelligence and Computational Imaging  
+        **Image Processing and Artificial Intelligence  
         for Biomedical Applications**
 
-        We develop artificial intelligence and computational imaging methods
-        for analyzing facial, retinal, OCT, and medical images.
+        Our laboratory develops advanced image processing and artificial
+        intelligence technologies for the visualization, processing, and
+        analysis of both internal and external structures of the human body.
 
-        Our goal is to develop quantitative and interpretable imaging
-        technologies for biomedical and clinical applications.
+        By integrating computational imaging and deep learning, we aim to
+        provide practical solutions for biomedical research, clinical
+        assessment, and digital healthcare applications.
     design:
       columns: '1'
       background:
