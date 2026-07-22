@@ -16,7 +16,7 @@ publication_types:
 
 publication:
   name: "2025 IEEE International Conference on Image Processing"
-  short_name: "ICIP 2025"
+  short_name: "IEEE ICIP 2025"
   peer_reviewed: true
   open_access: false
 
