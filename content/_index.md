@@ -62,11 +62,26 @@ sections:
       text: |-
         ### Principal Investigator
 
-        **Professor [Huisu Yoon]**  
+        **Huisu Yoon**  
         Department of Biomedical Engineering  
         University of Ulsan
 
+        ### Undergraduate Student
+
+        **Aung Kywe Oo**  
+        Department of Biomedical Engineering  
+        University of Ulsan
+
+        **Min Seong Kim**  
+        Department of Biomedical Engineering  
+        University of Ulsan    
+
+        **Ji Wook Han**  
+        Department of Biomedical Engineering  
+        University of Ulsan   
+
         Graduate students and undergraduate researchers will be introduced here.
+    
     design:
       columns: '1'
 
