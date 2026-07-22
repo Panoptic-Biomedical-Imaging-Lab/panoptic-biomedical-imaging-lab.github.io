@@ -10,8 +10,7 @@ sections:
       title: "Panoptic Biomedical Imaging Lab"
       subtitle: "University of Ulsan"
       text: |-
-        **Image Processing and Artificial Intelligence  
-        for Biomedical Applications**
+        **Image Processing and Artificial Intelligence for Biomedical Applications**
 
         Our laboratory develops advanced image processing and artificial
         intelligence technologies for the visualization, processing, and
