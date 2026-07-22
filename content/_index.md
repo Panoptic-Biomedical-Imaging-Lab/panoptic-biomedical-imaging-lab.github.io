@@ -31,26 +31,22 @@ sections:
       title: "Research Areas"
       subtitle: "Our primary research directions"
       text: |-
+        ### Medical Image Processing
+
+        Image processing and artificial intelligence methods for the reconstruction, enhancement,                    segmentation, and quantitative analysis of CT, ultrasound, and MRI images.
+
         ### Facial and Skin Imaging
 
-        Deep-learning methods for the detection, segmentation, and quantitative
-        analysis of wrinkles, pores, pigmentation, redness, and other facial
-        skin characteristics.
-
-        ### Retinal and OCT Imaging
-
-        Quantitative analysis of retinal vasculature, optic structures,
-        and retinal layers using artificial intelligence.
-
-        ### Medical Image Analysis
-
-        Computational methods for medical image reconstruction, enhancement,
-        segmentation, and interpretation.
+        Segmentation and quantitative analysis of facial skin characteristics, including wrinkles, pores,            pigmentation, and other skin features. We also develop generative AI methods for simulating facial           skin lesions and related conditions.
 
         ### Multimodal Artificial Intelligence
 
-        Integration of biomedical images, clinical information,
-        and vision-language models for interpretable analysis.
+        Multimodal learning methods that integrate images and text using vision-language models and related          architectures. Applications include interpretable facial image analysis, personal color assessment,          and diagnostic rationale generation.
+
+        ### Retinal, OCT, and Clinical Imaging
+
+        Artificial intelligence methods for retinal vessel analysis, retinal structure assessment, and OCT           image quantification. In collaboration with clinical partners, we also study medical image synthesis         and translation, including the generation of CBCT images from panoramic radiographs.
+    
     design:
       columns: '1'
 
