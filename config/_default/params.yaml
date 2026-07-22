@@ -30,16 +30,16 @@ hugoblox:
   # THEME
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
-  theme:
+  theme: light
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "#00664F" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "2A7F70"
+      neutral: "slate" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -48,6 +48,16 @@ hugoblox:
       background: ""
       foreground: ""
       header:
+      header:
+        enable: true
+        style: navbar
+        sticky: true
+        align: right
+      
+        search: false
+        theme_toggle: false
+        theme_picker: false
+        language_switcher: false
         background: ""
         foreground: ""
       footer:
