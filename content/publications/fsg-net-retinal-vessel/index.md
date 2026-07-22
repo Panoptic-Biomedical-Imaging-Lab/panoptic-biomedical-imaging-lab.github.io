@@ -1,42 +1,45 @@
 ---
-title: "Simulation of facial skin lesions leveraging texture-preserving inpainting and color image decomposition"
+title: "Full-scale representation guided network for retinal vessel segmentation"
 
 authors:
+  - Sunyong Seo
+  - Sangwook Yoo
   - Huisu Yoon
-  - Chanhyuk Lee
-  - Jongha Lee
-  - Semin Kim
 
-date: "2025-02-18T00:00:00Z"
-publishDate: "2025-02-18T00:00:00Z"
+date: "2025-11-21T00:00:00Z"
+publishDate: "2025-11-21T00:00:00Z"
 
 publication_types:
-  - paper-conference
+  - article-journal
 
 publication:
-  name: "Medical Imaging 2025: Clinical and Biomedical Imaging"
-  short_name: "SPIE Medical Imaging 2025"
-  volume: "13410"
+  name: "BMC Medical Imaging"
+  volume: "25"
+  issue: "1"
   peer_reviewed: true
-  open_access: false
+  open_access: true
 
 summary: >
-  A facial skin-lesion simulation method combining
-  texture-preserving image inpainting with color image decomposition.
+  A full-scale guided network for retinal vessel segmentation,
+  combining multi-scale feature representation with an
+  attention-guided filtering mechanism.
 
 tags:
-  - Facial Imaging
-  - Skin Lesion Simulation
-  - Image Inpainting
-  - Color Decomposition
+  - Retinal Imaging
+  - Vessel Segmentation
+  - Deep Learning
+  - Medical Image Analysis
 
 featured: true
 
 hugoblox:
   ids:
-    doi: "10.1117/12.3047206"
+    doi: "10.1186/s12880-025-02021-4"
+    arxiv: "2501.18921"
 
-links: []
+links:
+  - type: code
+    url: "https://github.com/ZombaSY/FSG-Net-pytorch"
 
 image:
   caption: ""
